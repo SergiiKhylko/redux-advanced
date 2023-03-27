@@ -9,7 +9,6 @@ const mainSlice = createSlice({
   initialState,
   reducers: {
     toggleCartVisibility(state) {
-      console.log("YO!!!")
       state.isCartVisible = !state.isCartVisible;
     }
   }
